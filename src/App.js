@@ -51,7 +51,24 @@ const translations = {
     name: "이름",
     yourEmail: "이메일",
     message: "메시지"
+  },
+  fr: {
+    header: "Services de Documents Sens Commun",
+    tagline: "Propulsé par l'IA + l'Expérience",
+    intro: "Aide abordable pour les gens ordinaires. Nous combinons des outils d’IA intelligents avec plus de 15 ans d’expérience juridique réelle pour vous aider avec l’immigration et les documents judiciaires — sans le coût élevé d’un avocat.",
+    postPay: "✔️ Vous ne payez qu'après la prestation du service. Aucun frais initial.",
+    contactHeader: "Contactez-Nous",
+    contactNote: "Vous avez une question ou êtes prêt à commencer ? Remplissez le formulaire ci-dessous ou contactez-nous directement.",
+    phone: "Téléphone : 425-584-8159",
+    email: "Email : commonsensedocs@gmail.com",
+    disclaimer: "Nous ne sommes pas des avocats et ne fournissons pas de conseils juridiques. Nous sommes un service de préparation de documents basé sur les informations que vous fournissez. Pour un conseil juridique, veuillez consulter un avocat agréé.",
+    contactSuccess: "Votre message a été envoyé. Nous vous répondrons sous peu.",
+    send: "Envoyer le Message",
+    name: "Votre Nom",
+    yourEmail: "Votre Email",
+    message: "Votre Message"
   }
+
 };
 
 function App() {
@@ -82,6 +99,7 @@ function App() {
               <option value="en">English</option>
               <option value="es">Español</option>
               <option value="ko">한국어</option>
+              <option value="fr">Français</option>
             </select>
           </div>
           <h2 className="text-xl mb-4">{t.tagline}</h2>
